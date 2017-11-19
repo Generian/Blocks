@@ -1,7 +1,7 @@
 var gun;
 var blocks = [];
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(windowWidth-10, windowHeight-10);
   gun = new Gun();
   ball = new Ball();
   addBlocks(blocks);

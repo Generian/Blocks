@@ -12,7 +12,7 @@ function Gun() {
   this.update = function() {
     //var pos = mouseX;
     //console.log(touches[0]);
-    var pos = touches[0];
+    var pos = mouseX;
     pos = pos - (this.length / 2.0);
     this.x = constrain(pos, 0 , width - this.length);
   }
