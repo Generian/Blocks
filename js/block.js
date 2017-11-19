@@ -23,7 +23,7 @@ function Block(x, y) {
   this.y = y;
   this.ye = y + dim;
   this.xe = x + dim;
-  this.whereIsBall = "";
+  this.whereIsBall = "ver";
 
   this.show = function() {
     fill(200);
