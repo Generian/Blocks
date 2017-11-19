@@ -5,6 +5,9 @@ function setup() {
   gun = new Gun();
   ball = new Ball();
   addBlocks(blocks);
+
+  return false;
+
 }
 
 function draw() {
@@ -26,5 +29,7 @@ function draw() {
 
   gun.show();
   ball.show();
+
+  return false;
 
 }

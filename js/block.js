@@ -8,6 +8,9 @@ function addBlocks(blockslist) {
       blockslist.push(new Block(j * dim, yTop + i * dim ));
     }
   }
+
+return false;
+
 }
 
 function ballHitsBlock(bl, ba) {
@@ -70,5 +73,7 @@ function Block(x, y) {
     }
 
   }
+
+  return false;
 
 }

@@ -48,27 +48,6 @@ function Ball() {
     }
   }
 
-  // this.where = function() {
-  //   for (i = 0; i < blocks.length; i++) {
-  //     var b = blocks[i]
-  //   if (this.x)
-  // }
+  return false;
 
-
-  // this.hitsBrick = function(blocks) {
-  //   for (i = 0; i < blocks.length; i++) {
-  //     var b = blocks[i];
-  //     if (this.x > b.x && this.x < b.xe && this.y > b.y && this.y < b.ye) {
-  //       if (b.whereIsBall = "hor") {
-  //         print("Hit hor!");
-  //         this.DirX = -this.DirX;
-  //       } else {
-  //         print("Hit ver!");
-  //         this.DirY = -this.DirY;
-  //       }
-  //     }
-  //   }
-  // }
-
-// && this.y < b.y && this.ye > b.ye    && this.x < b.x && this.xe > x.ye
 }

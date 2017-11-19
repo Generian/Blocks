@@ -17,4 +17,6 @@ function Gun() {
     this.x = constrain(pos, 0 , width - this.length);
   }
 
+  return false;
+
 }
