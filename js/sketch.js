@@ -15,7 +15,9 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(255, 0, 127);
+  fill(255);
+  rect(0, windowHeight-500, windowWidth - 10, 200);
   gun.update();
   ball.update();
   ball.changeDir(gun);

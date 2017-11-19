@@ -4,8 +4,8 @@ function Ball() {
   this.y = height / 2;
   this.DirX = sin(this.angle);
   this.DirY = cos(this.angle);
-  this.speed = 5;
-  this.dim = 5;
+  this.speed = 15;
+  this.dim = 20;
   this.xe = this.x + this.dim;
   this.ye = this.y + this.dim;
 

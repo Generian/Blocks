@@ -1,8 +1,8 @@
-var dim = 20;
+var dim = 50;
 
 function addBlocks(blockslist) {
   var rows = 3;
-  var yTop = 50;
+  var yTop = 100;
   for (i = 0 ; i < rows ; i++) {
     for (j = 0; j < width/dim; j++) {
       blockslist.push(new Block(j * dim, yTop + i * dim ));
@@ -33,7 +33,7 @@ function Block(x, y) {
     strokeWeight(0);
     rect(this.x, this.y, dim, dim);
     fill(255);
-    rect(this.x, this.y, dim - 1, dim - 1);
+    rect(this.x, this.y, dim - 3, dim - 3);
   }
 
   this.checkBall = function(ball) {

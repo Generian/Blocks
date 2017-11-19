@@ -1,8 +1,8 @@
 function Gun() {
-  this.y = height - 20;
+  this.y = height - 250;
   this.x = (width - this.length) / 2.0;
-  this.length = 50;
-  this.height = 5;
+  this.length = 200;
+  this.height = 15;
 
   this.show = function() {
     fill(255);
