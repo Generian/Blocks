@@ -5,7 +5,7 @@ document.body.addEventListener('touchmove', function (ev) {
 var gun;
 var blocks = [];
 function setup() {
-  createCanvas(windowWidth-10, windowHeight-10);
+  createCanvas(windowWidth-10, windowHeight-300);
   gun = new Gun();
   ball = new Ball();
   addBlocks(blocks);
