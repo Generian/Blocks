@@ -1,3 +1,7 @@
+document.body.addEventListener('touchmove', function (ev) {
+  ev.preventDefault();
+});
+
 var gun;
 var blocks = [];
 function setup() {
